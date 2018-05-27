@@ -25,6 +25,7 @@ namespace Metricity.Data.Services
 
         }
 
+
         public void Dispose()
         {
             _handledExceptionRepository.Dispose();

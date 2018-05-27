@@ -17,7 +17,10 @@ namespace Metricity.Data
         {
 
         }
-        
+
+        public DbSet<Metric> Metrics { get; set; }
+        public DbSet<HandledException> HandledExceptions { get; set; }
+
         public virtual DbSet<TEntity> CreateSet<TEntity>() where TEntity : class
         {
             return base.Set<TEntity>();

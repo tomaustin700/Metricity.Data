@@ -76,6 +76,10 @@
     <Compile Include="Migrations\201805151908537_InnerExceptionToStackTrace.Designer.cs">
       <DependentUpon>201805151908537_InnerExceptionToStackTrace.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805271406104_movetoseperateproject.cs" />
+    <Compile Include="Migrations\201805271406104_movetoseperateproject.Designer.cs">
+      <DependentUpon>201805271406104_movetoseperateproject.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\HandledExceptionRepository.cs" />
@@ -104,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201805151908537_InnerExceptionToStackTrace.resx">
       <DependentUpon>201805151908537_InnerExceptionToStackTrace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805271406104_movetoseperateproject.resx">
+      <DependentUpon>201805271406104_movetoseperateproject.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

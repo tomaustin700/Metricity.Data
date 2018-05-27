@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Metricity.Data
+namespace Metricity.Data.Interfaces
 {
-    public class Class1
+    internal interface IUnitOfWork : IDisposable
     {
+        void Commit();
     }
 }
